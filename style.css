@@ -1,8 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Mulish:wght@400;500;700&family=Raleway:wght@300;400;700&display=swap');
 *{
     margin:0;
-    padding: 0%;
+    padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: raleway,sans-serif; 
 }
-.container-fluid{
-    background-color: rgb(246, 242, 237);
+
+body{
+    height:100vh;
+    background:linear-gradient(to right,rgb(0, 0, 0) 0%,black 50%,rgb(251, 244, 244)50%,rgb(234, 228, 228) 100%);
 }
+span{
+    color:rgb(110, 103, 103);
+    text-decoration: solid;
+}
+.h2{
+    color: rgb(11, 7, 7);
+}
+.bi-github ,.bi-linkedin{
+    color: aliceblue;
+}
+.bi-instagram,.bi-twitter{
+    color:black
+}
+.btn-primary{
+    background:linear-gradient(to right,rgb(241, 235, 235) 0%,rgb(226, 221, 221) 50%,rgb(0, 0, 0) 50%,rgb(0, 0, 0) 100%);
+}
+.btn-name{
+    color:black
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .team-member img {
+    align-items:center;
+    width: 10rem;
+    height: 10rem;
+    border: 0.5rem solid rgba(255, 239, 239, 0.1);
+  }
+  .team-member h4, .team-member .h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+  .figure-caption{
+    color: aliceblue;
+  }
