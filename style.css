@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: raleway,sans-serif; 
+    font-family: raleway,sans-serif;
 }
 
 body{
@@ -52,3 +52,27 @@ span{
   .figure-caption{
     color: aliceblue;
   }
+  /* #btn-view{
+    position: relative;
+    left:34rem;
+   } */
+button{
+    border-radius:10px;
+    padding:5px;
+}
+button a{
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+}
+
+hr{    
+    color:gray;
+}
+#skills{
+    display: flex;
+    justify-content: center;
+}
+#skills img{
+ margin:2rem;
+ width:3%; 
+}
