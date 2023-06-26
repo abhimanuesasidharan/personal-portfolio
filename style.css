@@ -34,8 +34,8 @@ span{
     color:rgb(255, 0, 0);
 }
 .bi-arrow-up-circle{
-
     position: fixed;
+    width:50px;
 }
 .btn-primary{
     border:none;
