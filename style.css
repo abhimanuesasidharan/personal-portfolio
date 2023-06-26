@@ -30,6 +30,13 @@ span{
 .bi-instagram,.bi-twitter{
     color:black
 }
+.bi-arrow-up-circle{
+    color:rgb(255, 0, 0);
+}
+.bi-arrow-up-circle{
+
+    position: fixed;
+}
 .btn-primary{
     border:none;
     background:linear-gradient(to right,rgb(241, 235, 235) 0%,rgb(226, 221, 221) 50%,rgb(0, 0, 0) 50%,rgb(0, 0, 0) 100%);
